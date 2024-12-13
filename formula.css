@@ -1,0 +1,122 @@
+* {
+   margin: 0;
+   padding: o;
+   box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(234, 234, 234);
+}
+
+.hero {
+    display: flex;
+    background-color: rgb(234, 234, 234);
+    justify-content: space-between;
+    width: 100%;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    margin: 20px;
+}
+
+.nav-hero {
+    list-style: none;
+    display: flex;
+    padding-left: 10px;
+}
+
+.nav-hero li {
+    padding-right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color: rgba(198, 0, 0, 0.856);
+}
+
+.nav-hero a {
+    text-decoration: none;
+}
+
+#search {
+    height: 30px;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+
+.main-content {
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.main-content img {
+    max-width: 100%;
+    opacity: 70%;
+}
+
+.texts {
+    display: flex;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.texts a {
+    width: 95%;
+    padding: 10px;
+    align-self: center;
+    background-color: rgba(198, 0, 0, 0.856);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px 5px 5px 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.texts a:hover {
+    background-color: rgb(218, 218, 218);
+    transition: 0.2s;
+    color: rgba(198, 0, 0, 0.856);
+    border-radius: 5px 40px, 20px 5px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(234, 234, 234);
+    padding-bottom: 5px;
+    margin-top: 5px;
+}
+
+.footer h2 {
+    margin-bottom: 5px;
+    font-size: x-large;
+    font-weight: bolder;
+    color: rgba(198, 0, 0, 0.856);
+}
+
+.footer h3 {
+    font-size: large;
+    font-weight: lighter;
+    color: rgba(198, 0, 0, 0.856);;
+}
